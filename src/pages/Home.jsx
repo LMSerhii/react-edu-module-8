@@ -14,8 +14,8 @@ const styles = {
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>
+    <div style={styles.container}>
+      <h1 style={styles.title}>
         Task manager welcome page{' '}
         <span role="img" aria-label="Greeting icon">
           📲
